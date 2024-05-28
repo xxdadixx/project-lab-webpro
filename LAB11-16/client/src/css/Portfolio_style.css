@@ -1,0 +1,297 @@
+  #portfolio-header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    padding-top: 280px;
+  
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 10px auto;
+      border-radius: 50%;
+      margin-top: 10px;
+      width: 100%;
+      max-width: 150px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  
+    .image-container img {
+      border-radius: 8px;
+      margin-top: 10px;
+      width: 100%;
+    }
+  
+    section {
+      margin-bottom: 30px;
+    }
+  
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+  
+    li {
+      margin-bottom: 10px;
+      padding: 8px;
+    }
+  
+    h1 {
+      margin: 0;
+      font-size: 36px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    }
+  }
+ 
+  #performance {
+    position: relative; /* เพิ่มคุณสมบัติ position เป็น relative */
+  }
+  
+  .parent {
+    width: 681px;
+    height: 384px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto auto;
+    overflow: hidden;
+    position: absolute;
+    border-radius: 16px;
+  }
+  
+  .slider svg {
+    position: absolute;
+    z-index: 1;
+    width: 681px;
+    height: 384px;
+  }
+  
+  .slider button {
+    position: absolute;
+    z-index: 50;
+    width: 40px;
+    overflow: hidden;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
+  }
+  .slider button:focus {
+    outline-width: 0;
+  }
+  
+  circle {
+    stroke: #fff;
+    fill: none;
+    transition: 0.3s;
+  }
+  
+  #svg1 circle {
+    transition-timing-function: linear;
+  }
+  
+  #svg2 circle {
+    transition-timing-function: linear;
+  }
+  
+  #Capa_1 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    transform: translate(-7px, -8px);
+  }
+  
+  #Capa_2 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    transform: translate(-9px, -8px);
+  }
+  
+  #right {
+    margin-left: 628px;
+    margin-top: 168px;
+    border: 1px solid #849494;
+    background-color: transparent;
+    transition: 0.5s;
+  }
+  #right:hover {
+    background-color: #fff;
+  }
+  
+  #left {
+    margin-left: 0.5%;
+    margin-top: 168px;
+    border: 1px solid #849494;
+    background-color: transparent;
+    transition: 0.5s;
+  }
+  #left:hover {
+    background-color: #fff;
+  }
+  
+  .circle1 {
+    transition-delay: 0.05s;
+  }
+  
+  .circle2 {
+    transition-delay: 0.1s;
+  }
+  
+  .circle3 {
+    transition-delay: 0.15s;
+  }
+  
+  .circle4 {
+    transition-delay: 0.2s;
+  }
+  
+  .circle5 {
+    transition-delay: 0.25s;
+  }
+  
+  .circle6 {
+    transition-delay: 0.3s;
+  }
+  
+  .circle7 {
+    transition-delay: 0.35s;
+  }
+  
+  .circle8 {
+    transition-delay: 0.4s;
+  }
+  
+  .circle9 {
+    transition-delay: 0.45s;
+  }
+  
+  .circle10 {
+    transition-delay: 0.05s;
+  }
+  
+  .circle11 {
+    transition-delay: 0.1s;
+  }
+  
+  .circle12 {
+    transition-delay: 0.15s;
+  }
+  
+  .circle13 {
+    transition-delay: 0.2s;
+  }
+  
+  .circle14 {
+    transition-delay: 0.25s;
+  }
+  
+  .circle15 {
+    transition-delay: 0.3s;
+  }
+  
+  .circle16 {
+    transition-delay: 0.35s;
+  }
+  
+  .circle17 {
+    transition-delay: 0.4s;
+  }
+  
+  .circle18 {
+    transition-delay: 0.45s;
+  }
+  
+  .slide1 {
+    background-image: url("https://img5.pic.in.th/file/secure-sv1/image-13faa0082fbb688b6.png");
+  }
+  
+  
+  .slide2 {
+    background-image: url("https://img2.pic.in.th/pic/image-29004d56f9fa1ce0c.png");
+  }
+  
+  .slide3 {
+    background-image: url("https://img5.pic.in.th/file/secure-sv1/image-3447d6804e3837654.png");
+  }
+  
+  .slide4 {
+    background-image: url("https://img2.pic.in.th/pic/image-4e114a45658371e82.png");
+  }
+  
+  .slider {
+    position: absolute;
+    top: 0; /* ให้สไลด์เริ่มต้นอยู่ที่ด้านบนของเซ็กชัน */
+    left: 0; /* ให้สไลด์เริ่มต้นอยู่ที่ด้านซ้ายของเซ็กชัน */
+    width: 400%;
+    height: 100%;
+    background: #000;
+    display: inline-flex;
+    overflow: hidden;
+  }
+  
+  .slide1, .slide2, .slide3, .slide4 {
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    font-size: 62px;
+    padding-top: 138px;
+    font-weight: 800;
+    font-family: "Heebo", sans-serif;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: 10;
+    transition: 1.4s;
+  }
+  
+  .tran {
+    transform: scale(1.3);
+  }
+  
+  .up1 {
+    z-index: 20;
+  }
+  
+  .up2 {
+    z-index: 40;
+  }
+  
+  .steap {
+    stroke-width: 0;
+  }
+  
+  .streak {
+    stroke-width: 82px;
+  }
+  
+  @media (max-width: 700px) {
+    .parent {
+      margin-left: 1%;
+    }
+  }
+  
+  /* Responsive styles */
+  @media only screen and (max-width: 600px) {
+    header h1 {
+      font-size: 28px;
+    }
+  }
+  
